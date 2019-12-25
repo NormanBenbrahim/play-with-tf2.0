@@ -11,7 +11,8 @@ logger.setLevel(logging.ERROR)
 # --> setup neural network's layers (how many, how big, etc) in keras
 # --> initiate a model object with those layers
 # --> compile the model specifying loss and optimizer functions
-# --> evaluate the 
+# --> run the model on training data 
+# --> evaluate output
 
 # main function to convert
 def cels_to_fahr(cels):
