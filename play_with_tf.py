@@ -50,11 +50,7 @@ loss = trained_model.history['loss']
 loss_df = pd.DataFrame(list(zip(loss, epoch_label)),
                        columns=['Loss', 'Epoch'])
 
-sns.set(style="darkgrid") 
-sns.lineplot(x="epochs",
-             y="MSE",
-             hue="region", 
-             style="event",
-             data=loss_df)
+sns.set(style="darkgrid")
+sns.lineplot(x="Epoch", y="Loss", data=loss_df)
 
 
