@@ -4,4 +4,14 @@ This repo shows how to use Tensorflow 2.0 to build and predict Fahrenheit temper
 
 The values for the temperatures in this dataset were created using `np.random.rand`, so these aren't real temperatures.
 
-Browse the contents of the file 'run_me.py'
+# Recommended Usage
+
+Create a virtual environment and install the dependencies inside `requirements.txt`
+
+```
+python3 -m venv env_python
+source env_python/bin/activate
+pip install -r requirements.txt
+```
+
+Then run the file `run_me.py`
