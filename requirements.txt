@@ -1,0 +1,4 @@
+pandas
+numpy
+seaborn
+tensorflow==2.0.0
