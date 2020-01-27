@@ -2,6 +2,7 @@ import tensorflow as tf
 import numpy as np 
 import pandas as pd 
 import seaborn as sns 
+import matplotlib.pyplot as plt 
 
 # formula for converting temperatures
 def cels_to_fahr(cels):
@@ -42,3 +43,4 @@ loss_df
 
 sns.set(style="darkgrid")
 sns.lineplot(x="Epoch", y="Loss", data=loss_df)
+plt.show()
